@@ -726,6 +726,12 @@ header .navbar {
   .coming-container {
     grid-template-columns: repeat(auto-fit, minmax(160px, auto));
   }
+   .shop-content p{
+    width: 100%;
+  }
+  .info{
+    width: 100%;
+  }
 }
 @media (max-width: 472px) {
   .solar .solar-images {
@@ -735,12 +741,36 @@ header .navbar {
   .photo .logo2 {
     top: 19%;
   }
+   .shop-logo{
+    display: block;
+  }
+   .subscribe-sub input{
+    width: 100%;
+  }
+  .footer-content ul{
+   flex-direction: column;
+}
 }
 @media (max-width: 572px) {
   .child-1 {
     flex: none;
+    width: 90%;
   }
   .items {
     grid-template-columns: none;
+  }
+    .item2{
+    width: 100%;
+  }
+  .item{
+    display: block;
+  }
+  .photo .logo2{
+    top:59%
+  }
+}
+@media (max-width:500px) {
+  .inner-values{
+    width: 100%;
   }
 }
